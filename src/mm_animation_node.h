@@ -21,7 +21,7 @@ public:
 
     void set_blending_enabled(bool value);
 
-    virtual PackedFloat32Array _process_animation_node(const PackedFloat64Array& p_playback_info, bool p_test_only);
+    virtual PackedFloat32Array _process_animation_node(const PackedFloat64Array& p_playback_info, bool p_test_only) override;
     virtual Array _get_parameter_list() const override;
     virtual Variant _get_parameter_default_value(const StringName& p_parameter) const override;
     virtual bool _is_parameter_read_only(const StringName& p_parameter) const override;
