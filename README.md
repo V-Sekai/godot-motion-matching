@@ -1,4 +1,5 @@
 # Motion Matching for Godot 4.4
+
 [![Build GDExtension](https://github.com/GuilhermeGSousa/godot-motion-matching/actions/workflows/builds.yml/badge.svg?branch=master)](https://github.com/GuilhermeGSousa/godot-motion-matching/actions/workflows/builds.yml) [![Demo](https://img.shields.io/badge/Extension-Demo-blue)](https://github.com/GuilhermeGSousa/godot-motion-matching-demo)
 
 ![](https://github.com/GuilhermeGSousa/godot-motion-matching/blob/master/motion_matching_demo.gif)
@@ -8,14 +9,15 @@ Motion Matching is an animation technique that allows you to easily setup charac
 This extension is fully integrated into Godot's `AnimationTree` system, and can be used in tandem with more traditional animation techniques.
 
 ### :gear: How it Works
+
 Motion Matching uses a set of animations contained in an animation library to build a **pose database**, which contains **features** that describe different animation frames in different ways. At runtime, these **features** are periodically compared against what the character is doing, and the animation that best matches those **features** is played.
 
 The only requirement for all this to work is to have animations with both root motion, and a root bone at the foot level.
 
 You can find more on how to set all this up on the wiki [here!](https://github.com/GuilhermeGSousa/godot-motion-matching/wiki)
 
-
 ### :raised_hands: Credits
+
 I want to thank all the contributors that made this project possible!
 
 [Fire](https://github.com/fire)
